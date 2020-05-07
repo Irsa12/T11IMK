@@ -1,0 +1,284 @@
+body{
+	margin:0;
+	font-family: sans-serif;
+	background-color:	#00CED1;
+}
+*{
+	box-sizing:border-box;
+	
+}
+.container{
+	max-width:1300px;
+	margin:auto;
+}
+
+.row{
+	display:flex;
+	flex-wrap: wrap;
+}
+header{
+	position:absolute;
+	left:0px;
+	right:15px;
+}
+header .row{
+	justify-content:space-between;
+}
+header .Profil{
+	margin-top:15px;
+	margin-left:20px;
+	padding:2px;
+	border: solid;
+	border-radius:50%;
+	border-color:white;
+}
+
+header .navbar ul{
+	list-style:none;
+	padding:0;
+	margin:0;
+}
+header .navbar ul li{
+	display:inline-block;
+	margin-left:30px;
+}
+header .navbar ul li a{
+	font-size:15px;
+	text-decoration: none;
+	line-height:80px;
+	color:black;
+	font-weight:500;
+}
+header .navbar a:hover{
+	background-color:lightskyblue;
+	color:white;
+}
+	
+.home{
+	min-height:100vh;
+	/*background-image:url(‪"pic/BBB.jpg");*/
+	background-color:	#00CED1;
+	background-size:cover;
+	background-position:center;
+	padding:40px;
+}
+.home .full-screen{
+	min-height:100vh;
+}
+.home .home-content{
+	flex: 0 0 100%;
+	max-width: 100%;
+	display:flex;
+	flex-wrap:wrap;
+	align-items:center;
+}
+.home .home-content .block{
+	flex: 0 0 75%;
+	max-width:75%;
+	padding-left:30px;
+	border-left: 3px solid white;
+	margin-top:50px;
+}
+.home .home-content .block h3{
+	color:green;
+	font-size:16px;
+	font-weight:400;
+	margin:0;
+	padding:0;
+	color:green;
+	font-size:18px;
+	font-weight:500;
+	font-family:roboto;
+}
+.home .home-content .block h2{
+	color:green;
+	font-size:16px;
+	font-weight:400;
+	margin:0;
+	padding:0;
+	color:green;
+	font-size:18px;
+	font-weight:500;
+	font-family:roboto;
+}
+.home .home-content .block h1{
+	color:green;
+	font-size:32px;
+	font-weight:600;
+	margin: 0 0 5px;
+	padding:0;
+	font-family:optima;
+}
+.batas{
+	border-style: solid none none none;
+	color:grey;
+	border-width:1px;
+	width:100%;
+	float:center;
+}
+.AboutMe{
+	padding: 50px 20px;
+	/*background-color:#48D1CC;*/
+}
+.AboutMe .section-title{
+	flex:0 0 100%;
+	max-width: 100%;
+	margin-bottom:30px;
+}
+.AboutMe .section-title h1{
+	display:inline-block;
+	font-size: 28px;
+	text-transform:uppercase;
+	font-weight:700;
+	color:green;
+	margin:0 0 5px;
+	position:relative;
+}
+.AboutMe .About-konten.img{
+	flex:0 0 33%;
+	max-width: 33%;
+	margin-top:15px;
+	margin-left:20px;
+	padding:2px;
+	border: solid;
+	border-radius:50%;
+	border-color:white;
+}
+.AboutMe .About-konten.img img{
+	width:100%;
+	display:block;
+}
+.AboutMe .About-konten .text{
+	flex:0 0 66%;
+	max-width: 66%;
+	padding-left:30px;
+}
+.AboutMe .About-konten .text h4{
+	font-size:18px;
+	font-weight:400px;
+	margin: 50px 0 5px;
+	color: 
+}
+.AboutMe .About-konten .text p{
+	font-size:15px;
+	font-weight:400px;
+	Line-height:22px;
+}
+.border{
+	border-style: dotted none none none;
+	color:grey;
+	border-width:3px;
+	width:10%;
+	float:center;
+}
+/*pendidikan*/
+
+.img-pend{
+	float:right;
+	margin-top:15px;
+	margin-left:15px;
+	padding:2px;
+	border: none;
+	border-radius:50%;
+	border-color:grey;
+}
+.align-items-center{
+	align-items:center;
+}
+.pend{
+	padding: 40px 20px;
+	/*background-color:grey;*/
+}
+.pend .Pendidikan{
+
+	flex:0 0 50%;
+	max-width:50%;
+	padding-right:30px;
+}
+.pend .img-pend img{
+	/*width:50%;*/
+	display:block;
+}
+/*pengalaman*/
+.Organisasi{
+	padding: 40px 20px;
+}
+.Organisasi .organ-konten.img{
+	flex:0 0 33%;
+	max-width: 33%;
+}
+.Organisasi .organ-konten.img img{
+	width:100%;
+	display:block;
+	margin-top:30px;
+}
+.Organisasi .organ-konten .text{
+	flex:0 0 66%;
+	max-width: 66%;
+	padding-left:30px;
+}
+.Organisasi .organ-konten .text h2{
+	font-size:24px;
+	font-weight:400px;
+	margin: 50px 0 5px;
+	color: 
+}
+.Organisasi .organ-konten .text p{
+	font-size:15px;
+	font-weight:400px;
+	Line-height:22px;
+}
+/*kompetensi*/
+.img-kom{
+	float:right;
+	margin-top:15px;
+	margin-left:15px;
+	padding:2px;
+	border: none;
+	border-radius:50%;
+	/*border-color:grey;*/
+}
+.align-items-center{
+	align-items:center;
+}
+.kompetensi{
+	padding: 40px 15px 20px 40px;
+	/*background-color:grey;*/
+}
+.kompetensi .kom{
+
+	flex:0 0 50%;
+	max-width:50%;
+	padding-right:30px;
+}
+.kompetensi .img-kom img{
+	/*width:50%;*/
+	display:block;
+}
+/*footer*/
+.menu{
+	position:absolute;
+	left:0px;
+	right:30px;
+}
+.menu .row{
+	justify-content:space-between;
+}
+.menu.navbar ul{
+	list-style:none;
+	padding:0;
+	margin:10px;
+}
+.menu .navbar ul li{
+	display:inline-block;
+	margin-left:140px;
+}
+.menu .navbar ul li a{
+	font-size:12px;
+	text-decoration: none;
+	line-height:90px;
+	color:black;
+	font-weight:300;
+	word-spacing:0;
+}
+
